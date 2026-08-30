@@ -1,3 +1,5 @@
+<kbd><img src="./images/pack.png" alt="resource pack icon" style="background-color: black; padding: 2px;"></img></kbd>
+
 # Transparent Bedrock
 
 A Minecraft resource pack that gives Bedrock blocks a more transparent appearance.
