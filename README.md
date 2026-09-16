@@ -12,13 +12,13 @@ It makes it easier to spot blocks remaining in gaps in the bedrock.
 
 ## Latest Release
 
-1.0.0
+1.0.1
 
 ## Java Edition
 
-### Minecraft 26.1 / 26.1.1 / 26.1.2 / 26.2 or later
+### Minecraft 26.1 / 26.1.1 / 26.1.2 / 26.2 / 26.3 or later
 
-1. Download the resource pack from the `1.0.0` directory.
+1. Download the resource pack from the `1.0.1` directory.
 
 2. Place the downloaded file in your Minecraft `resourcepacks` folder.
 
@@ -30,7 +30,7 @@ On Windows, the default location is:
 
 1. Exit Minecraft.
 
-2. Download `TransparentBedrock.mcpack` from the `1.0.0` directory.
+2. Download `TransparentBedrock.mcpack` from the `1.0.1` directory.
 
 3. Double-click or tap the downloaded file.
 
