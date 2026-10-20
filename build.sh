@@ -40,7 +40,7 @@ rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR} ${TMPDIR}/assets
 mkdir -p ${TMPDIR}/assets/minecraft ${TMPDIR}/assets/minecraft/textures ${TMPDIR}/assets/minecraft/textures/block
 cp ${TEXTURES_SRCDIR}/bedrock.png ${TEXTURES_DSTDIR}/bedrock.png
-cp -R ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
+cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/pack.png
 _destfile=pack.mcmeta
 cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXMAXPACKFORMATXXX/${MAX_PACK_FORMAT}/g" | \
@@ -64,8 +64,8 @@ rm -f ${RESOURCE_PACK_FILE_BEDROCK}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR}
 cp -R ${RESOURCE_PACK_NAME}/assets/minecraft/textures ${TMPDIR}/
-cp -R ${RESOURCE_PACK_NAME}/manifest.json             ${TMPDIR}/
-cp -R ${RESOURCE_PACK_NAME}/pack.png                  ${TMPDIR}/pack_icon.png
+cp ${RESOURCE_PACK_NAME}/manifest.json ${TMPDIR}/manifest.json
+cp ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/pack_icon.png
 _destfile=manifest.json
 cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
